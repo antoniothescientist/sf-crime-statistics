@@ -6,7 +6,10 @@ In this project, the Kaggle dataset on San Francisco crime incidents is used for
 
 Start Zookeeper, Kafka server, and Kafka bootstrap server using the following command:
 
-`bin/zookeeper-server-start.sh config/zookeeper.properties`
+`bin/zookeeper-server-start.sh`
+
+`config/zookeeper.properties`
+
 `bin/kafka-server-start.sh config/server.properties`
 
 To make sure that the the producer_server.py file is running correctly, run the default consumer:
